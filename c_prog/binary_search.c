@@ -32,7 +32,7 @@ int main()
 	scanf("%d",&arr[i]);
 	}
 	int t=0;
-	
+	/*
 	for(i=0;i<n;i++)
 	{
 	for(j=i+1;j<n;j++)
@@ -49,7 +49,7 @@ int main()
 	for(i=0;i<n;i++)
 	{
 	printf("%d ",arr[i]);
-	}
+	}*/
 	printf("enter the search element:");
 	scanf("%d",&s);
 	int r=binary_search(arr,n,s);
